@@ -31,4 +31,4 @@ jobs:
         run: sleep 5
         
       - name: Run tests
-        run: npm run magnitude
+        run: npx magnitude
