@@ -1,6 +1,10 @@
 import { test } from 'magnitude-ts';
 
-const sampleTodos = ["Take out the trash", "Buy groceries", "Build more test cases with Magnitude"];
+const sampleTodos = [
+    "Take out the trash",
+    "Buy groceries",
+    "Build more test cases with Magnitude"
+];
 
 test('can add a todo')
     .step('Enter and add a todo')
