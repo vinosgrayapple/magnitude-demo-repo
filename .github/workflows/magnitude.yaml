@@ -27,4 +27,4 @@ jobs:
         run: sleep 5
         
       - name: Run tests
-        run: bun x magnitude
+        run: bun run magnitude
