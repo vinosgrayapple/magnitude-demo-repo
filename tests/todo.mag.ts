@@ -1,4 +1,4 @@
-import { test } from 'magnitude-ts';
+import { test } from 'magnitude-test';
 
 const sampleTodos = [
     "Take out the trash",
