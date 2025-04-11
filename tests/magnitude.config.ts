@@ -1,5 +1,5 @@
-import { defineConfig } from "magnitude-test";
+import { MagnitudeConfig } from "magnitude-test";
 
-export default defineConfig({
-    baseUrl: "http://localhost:5173"
-});
+export default {
+    url: "http://localhost:5173"
+} satisfies MagnitudeConfig;
